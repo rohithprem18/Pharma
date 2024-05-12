@@ -317,22 +317,15 @@ contact.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - RP Pharmacy</title>
+    <title>Contact Us - RP Pharmacy</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .product-card {
-            height: 680px;
-            border: 5px solid black;
-            margin-bottom: 40px;
-        }
-    </style>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">RP Pharmacy ⚕️</a>
+                <a class="navbar-brand" href="home.html">RP Pharmacy ⚕️</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -367,20 +360,34 @@ contact.html
     <br> <br> <br> <br>
     <div class="container mt-5">
         <div class="row">
-            <div class="col-md-12">
-                <h2 class="text-center">About RP Pharmacy</h2>
-                <img src="download.png" alt="RP Pharmacy Logo" style="display: block; margin: auto; width: 200px; height: auto;">
-                <p class="text-center">RP Pharmacy is a trusted provider of high-quality pharmaceutical products
-                    since 20XX. We are committed to improving the health and well-being of our customers by offering a
-                    wide range of medicines, supplements, and healthcare products.</p>
-                <p class="text-center">Our team of experienced pharmacists and healthcare professionals ensures that
-                    every product we offer meets the highest standards of safety and efficacy. We strive to provide
-                    exceptional customer service and personalized care to all our clients.</p>
-                <p class="text-center">At RP Pharmacy, your health is our priority. We are dedicated to helping you
-                    lead a healthier and happier life.</p>
+            <div class="col-md-6 offset-md-3">
+                <h2 class="text-center">Contact Us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="5"
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    <br>
+
+                   <b>RP Pharmacy <br> Bishop Gardens,<br>Raja Annamalaipuram, <br> Chennai, <br>Tamil Nadu- 600028</b> 
+                </form>
             </div>
         </div>
         <body style="background-image: url('bg.jpg'); background-size: cover; background-repeat: no-repeat;">
+
 
     </div>
 
@@ -396,6 +403,7 @@ contact.html
 </body>
 
 </html>
+
 ```
 
 ## OUTPUT:
